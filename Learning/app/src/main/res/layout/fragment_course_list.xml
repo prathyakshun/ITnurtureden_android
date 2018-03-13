@@ -1,0 +1,20 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_course_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.itnurtureden.learning.CourseListFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ListView
+        android:id="@+id/lvCourses"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#B8860B"
+        android:dividerHeight="2px"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="79dp" />
+</FrameLayout>

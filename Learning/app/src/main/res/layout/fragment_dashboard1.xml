@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.itnurtureden.learning.DashboardFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/user_profile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="65dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="59dp"
+        android:text="HI" />
+
+    <TextView
+        android:id="@+id/user_profile_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="57dp"
+        android:text="Registered Email  : "
+        android:layout_below="@+id/user_profile_name"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/NumCoursesRegistered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="Number of Courses Registered :"
+        android:layout_below="@+id/user_profile_email"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tvDisplay1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/NumCoursesRegistered"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="Hope you have an fun and happy time with us!" />
+
+    <TextView
+        android:id="@+id/tvDisplay2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDisplay1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="Happy Learning with LearnWithUs!" />
+</RelativeLayout>

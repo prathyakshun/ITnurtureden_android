@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/grp1" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_menu_dashboard"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_course"
+            android:icon="@drawable/ic_menu_learning"
+            android:title="Courses Registered" />
+        <item
+            android:id="@+id/nav_all_courses"
+            android:icon="@drawable/ic_menu_books"
+            android:title="All Courses" />
+        <item
+            android:id="@+id/nav_categories"
+            android:icon="@drawable/ic_menu_category"
+            android:title="Categories" />
+        <item
+            android:id="@+id/nav_assessment"
+            android:icon="@drawable/ic_menu_logout"
+            android:title="Assessment" />
+    </group>
+    <group android:id="@+id/grp2" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_menu_chat"
+            android:title="Chat" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_logout"
+            android:title="LogOut" />
+
+    </group>
+
+</menu>
